@@ -108,7 +108,7 @@ const Portfolio = () => {
   };
 
   return (
-    <>
+    <div id="Profile">
       {/* section one */}
       <section className='mt-[2.81rem] flex flex-col justify-center items-center'>
         <h3 style={{ lineHeight: 'normal' }} className='text-my-black font-my-font text-3xl not-italic font-bold'>Portfolio</h3>
@@ -377,7 +377,7 @@ const Portfolio = () => {
       </section>
 
       {/* section  */}
-      <section className="mt-[3.88rem] mb-[4.12rem]">
+      <section id="Clients" className="mt-[3.88rem] mb-[4.12rem]">
         <h2 className="text-my-black font-my-font text-3xl not-italic font-bold leading-normal mx-auto w-[20.7rem]">Clients Who Trust Us</h2>
         <div className="flex flex-wrap justify-center xl:justify-between  xl:gap-0 gap-10  pl-[2.06rem]  pr-[1.94rem]   mt-[2.56rem]">
           <img src={img_25} alt="this is image" />
@@ -406,7 +406,7 @@ const Portfolio = () => {
           <h2 className="text-my-black font-my-font text-[1.6rem] not-italic font-medium leading-normal sm:mt-[2.56rem]">& MORE..........</h2>
         </div>
       </section>
-    </>
+    </div>
   )
 }
 

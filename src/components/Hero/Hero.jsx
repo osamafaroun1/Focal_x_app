@@ -13,7 +13,7 @@ import groub from '../../assets/Group 3.svg'
 const Hero = () => {
     return (
         <>
-            <header className='of-header'>
+            <header className='of-header' id='Hero'>
                 <div className='lg:flex'>
                     <div className='pt-[8.56rem] largeScreen:pt-[15rem] pl-[2.06rem] pr-[2.06rem] sm:pr-0  lg:w-[67.57%] of-left-hero'>
                         <h1 className='lg:w-[75.39%]'>Hey !! Mario still here, But don’t forget that</h1>

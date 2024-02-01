@@ -3,7 +3,7 @@ import "./InternStyle.css"
 import SliderCom from '../Slider/SliderCom'
 const Intern = () => {
     return (
-        <div className='intern'>
+        <div className='intern' id='inter'>
             <div className="internTextS">
                 <h1 className='internH'>X Internship</h1>
                 <p className='InternPA'>In focal X agency We belive that every human need second chance,

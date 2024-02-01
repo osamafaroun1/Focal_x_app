@@ -79,7 +79,7 @@ const getColor = (index) => {
     return index % 2 === 0 ? '0px 44px 44px 0px' : '44px 0px 0px 44px';
   };
   return (
-    <>
+    <div id='Services'>
     <center className='mt-10'>
     <h2 className='headline'>Our Services</h2>
     </center>
@@ -93,6 +93,6 @@ const getColor = (index) => {
  
    </section>
    <VisualServices/>
-   </>
+   </div>
   )
 }

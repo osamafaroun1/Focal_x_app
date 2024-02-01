@@ -32,7 +32,7 @@ const About = ({ title, description, subT, subSTit, descSub, cardsA }) => {
     triggerOnce: true,
   });
   return (
-    <div className='aboutCont'>
+    <div className='aboutCont' id="about">
       <div className="aboutS">
         <h1 className='titA'>{title}</h1>
         <p className='descAbout'>{description}</p>
